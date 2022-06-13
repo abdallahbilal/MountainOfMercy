@@ -1,0 +1,224 @@
+body{
+  background-color:  #21222A;
+  font-family: 'Montserrat', sans-serif;
+  width: auto;
+}
+
+
+
+
+header>nav{
+
+      display: flex;
+      align-items: center;
+      background-color: #21222A;
+      height: 110px;
+      padding: 30px 25px;
+
+}
+
+.logo{
+  width: 185px;
+padding-left: 40px;
+padding-top: 17px;
+}
+
+
+nav>ul{
+  margin: 0 650px;
+  list-style: none;
+  display: flex;
+}
+
+nav > ul > li:nth-child(1),
+nav > ul > li:nth-child(2),
+nav > ul > li:nth-child(3){
+  padding-right: 44px;
+  font-size: 28px;
+  color: white;
+}
+
+nav > ul > li:nth-child(1) > a,
+nav > ul > li:nth-child(2) > a,
+nav > ul > li:nth-child(3) > a{
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+}
+
+
+nav > ul > li:nth-child(1) > a:after{
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #0087ca;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+
+
+}
+
+nav > ul > li:nth-child(1) > a:hover:after
+{
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+nav > ul > li:nth-child(2) > a:after{
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #0087ca;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+
+
+}
+
+nav > ul > li:nth-child(2) > a:hover:after
+{
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+nav > ul > li:nth-child(3) > a:after{
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #0087ca;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+
+
+}
+
+nav > ul > li:nth-child(3) > a:hover:after
+{
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.About{
+  background-color: white;
+  width: 80%;
+  text-align: center;
+  margin: auto;
+  padding-top: 22px;
+  color: black;
+  padding-bottom: 40px;
+  border-radius:5px;
+  margin-top: 30px;
+}
+
+.Smalllogo{
+  height: 192px;
+  margin-bottom: -33px;
+}
+
+.WhoWeAre{
+  font-size: 35px;
+  color: #0087ca;
+  text-decoration: underline;
+  text-decoration-color:  #0087ca;
+}
+
+.Subtitle{
+  font-size: 18px;
+  font-weight:700 ;
+  color: #32a856;
+}
+
+.Dash{
+    color: #0087ca;
+    font-size: 18px;
+    font-weight:700 ;
+
+}
+
+.Paragraph{
+    font-size: 18px;
+    font-weight:700 ;
+    width: 60%;
+    margin: auto;
+    line-height: 23px;
+}
+
+.LastContent{
+margin-top: 40px;
+height: 250px;
+}
+
+.lastPhoto{
+  float:left;
+  padding-top: 15px;
+  padding-left:68px;
+  height: 245px;
+  border-radius: 5px;
+}
+
+.lastContentTitle{
+
+  padding-top: 15px;
+  text-align: center;
+  color: white;
+  font-size: 35px;
+
+}
+
+.lastContentsubTitle{
+
+  text-align: center;
+  color: white;
+  font-size: 18px;
+  font-weight:700 ;
+}
+
+.Donation{
+  font-size: 35px;
+    text-align: center;
+    margin-top: 10px;
+    text-decoration: none;
+    color: white;
+  border-style:solid;
+  border-radius: 5px;
+  border-color:  #1fed7f;
+  background-color: #1fed7f;
+  display:-webkit-inline-box;
+  margin-left: 415px;
+
+
+}
+
+.footer{
+  width: 100%;
+  background-color: white;
+  height: 100px;
+    margin-top: 48px
+}
+
+.copy{
+  padding-top: 30px;
+  font-size: 20px;
+  font-weight:700 ;
+  text-align: center;
+}
+
+.design{
+  font-size: 20px;
+  font-weight:700 ;
+  text-align: center;
+}
