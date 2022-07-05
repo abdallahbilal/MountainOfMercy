@@ -1,0 +1,278 @@
+body{
+  background-color:  #21222A;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+
+
+header>nav{
+
+      display: flex;
+      align-items: center;
+      background-color: #21222A;
+      height: 110px;
+      padding: 30px 25px;
+
+}
+
+.logo{
+  width: 185px;
+padding-left: 40px;
+padding-top: 17px;
+}
+
+
+nav>ul{
+  margin: 0 650px;
+  list-style: none;
+  display: flex;
+}
+
+nav > ul > li:nth-child(1),
+nav > ul > li:nth-child(2),
+nav > ul > li:nth-child(3){
+  padding-right: 44px;
+  font-size: 28px;
+  color: white;
+}
+
+nav > ul > li:nth-child(1) > a,
+nav > ul > li:nth-child(2) > a,
+nav > ul > li:nth-child(3) > a{
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+}
+
+
+nav > ul > li:nth-child(1) > a:after{
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #0087ca;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+
+
+}
+
+nav > ul > li:nth-child(1) > a:hover:after
+{
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+nav > ul > li:nth-child(2) > a:after{
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #0087ca;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+
+
+}
+
+nav > ul > li:nth-child(2) > a:hover:after
+{
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+nav > ul > li:nth-child(3) > a:after{
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #0087ca;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+
+
+}
+
+nav > ul > li:nth-child(3) > a:hover:after
+{
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+
+.Mainheading{
+  margin-top: 40px;
+  background-image: url(file:///C:/Users/ELITEBOOK/Downloads/MountainOfMercy/images/house.jpg);
+height: 660px;
+background-size: cover;
+}
+
+.GetInTouch{
+  padding-top: 312px;
+  padding-left: 60px;
+    font-size: 55px;
+  text-align: left;
+  color: white;
+}
+
+.ContactSubtitle{
+  margin-top: -27px;
+  padding-top: -10px;
+  padding-left: 70px;
+  font-size: 25px;
+  font-weight:700 ;
+  text-align: left;
+  color: white;
+}
+
+.Contactinfo{
+  margin:auto;
+  text-align: left;
+  margin-top: 25px;
+}
+
+.gaza {
+    float: right;
+    width: 40%;
+    height: 500px;
+    margin-top: -473px;
+    padding-right: 12px;
+    border-radius: 5px;
+}
+
+.Smalllogo{
+  margin: auto;
+  height: 192px;
+  padding-left: 220px;
+}
+
+.Paragraph{
+  padding-top: 20px;
+    font-size: 18px;
+    font-weight:700 ;
+    color: white;
+    width: 50%;
+    margin: auto;
+    margin-left: 90px;
+    line-height: 30px;
+}
+
+.footer{
+  width: 100%;
+  background-color: white;
+  height: 100px;
+    margin-top: 48px
+}
+
+.copy{
+  padding-top: 30px;
+  font-size: 20px;
+  font-weight:700 ;
+  text-align: center;
+}
+
+.design{
+  font-size: 20px;
+  font-weight:700 ;
+  text-align: center;
+}
+
+@media only screen and (max-width: 425px) {
+  header>nav{
+
+        display: flex;
+        align-items: center;
+        background-color: #21222A;
+        height: 23px;
+        padding: 30px 25px;
+
+  }
+
+.logo{
+  width: 80px;
+      padding-left: 0px;
+      padding-top: 17px;
+    }
+
+  nav>ul{
+    margin: 0 48px;
+    list-style: none;
+    display: flex;
+  }
+
+  nav > ul > li:nth-child(1),
+  nav > ul > li:nth-child(2),
+  nav > ul > li:nth-child(3){
+    padding-right: 19px;
+    font-size: 18px;
+    color: white;
+  }
+
+  .Mainheading {
+      margin-top: 40px;
+      background-image: url(file:///C:/Users/ELITEBOOK/Downloads/MountainOfMercy/images/house.jpg);
+      height: 650px;
+      background-size: cover;
+      width: 426px;
+  }
+
+  .GetInTouch {
+      padding-top: 298px;
+      padding-left: 60px;
+      font-size: 55px;
+      text-align: left;
+      color: white;
+  }
+
+.Contactinfo {
+    margin: auto;
+    text-align: left;
+    margin-top: 25px;
+    width: 1350px;
+}
+
+.Smalllogo {
+    margin: auto;
+    height: 192px;
+    padding-left: 90px;
+}
+
+.Paragraph {
+    padding-top: 20px;
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+    width: 25%;
+    margin: auto;
+    margin-left: 47px;
+    line-height: 27px;
+    text-align: center;
+}
+
+.gaza {
+    float: right;
+    width: 30%;
+    height: 497px;
+    margin-top: 10px;
+    border-radius: 5px;
+    padding-right: 935px;
+}
+
+.footer {
+    width: 100%;
+    background-color: white;
+    height: 120px;
+    margin-top: 519px;
+}
